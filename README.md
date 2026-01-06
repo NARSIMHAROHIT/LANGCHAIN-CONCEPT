@@ -58,3 +58,11 @@ Multi-document retrieval
 Streaming responses
 Memory optimization
 
+Enter the query hi this is rohit how are you 
+AI Response = content="Hello Rohit, I'm doing well, thank you for asking. I'm a large language model, so I don't have feelings or emotions like humans do, but I'm functioning properly and ready to help with any questions or topics you'd like to discuss. How can I assist you today?" additional_kwargs={} response_metadata={'token_usage': {'completion_tokens': 61, 'prompt_tokens': 44, 'total_tokens': 105, 'completion_time': 0.081119108, 'completion_tokens_details': None, 'prompt_time': 0.00213121, 'prompt_tokens_details': None, 'queue_time': 0.010571677, 'total_time': 0.083250318}, 'model_name': 'llama-3.1-8b-instant', 'system_fingerprint': 'fp_9ca2574dca', 'service_tier': 'on_demand', 'finish_reason': 'stop', 'logprobs': None, 'model_provider': 'groq'} id='lc_run--019b94c6-702b-77a3-b7b9-80beb50f092e-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 44, 'output_tokens': 61, 'total_tokens': 105}
+
+
+
+python ./src/chatbot.py
+Enter the queryhi this is rohit 
+AI Response = Hi Rohit, how are you doing today? Is there something I can help you with or would you like to chat?
