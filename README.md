@@ -5,3 +5,4 @@ Architecture of RAG
     STORE DATA {we store data in the vector store data bases like FIASS  Chromadb }
 
     We chunk data because the llm has limitation of context window  so we divided data into chunks
+https://docs.langchain.com/oss/python/integrations/providers/overview
